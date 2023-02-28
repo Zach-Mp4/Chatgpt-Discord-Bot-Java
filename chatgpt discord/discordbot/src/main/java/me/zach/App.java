@@ -29,7 +29,7 @@ public class App
             guild.upsertCommand("chat", "Ask chat gpt a question or say hello!")
             .addOption(OptionType.STRING, "prompt", "prompt for gpt", true)
             .queue();
-            guild.upsertCommand("image", "Ask chat gpt a question or say hello!")
+            guild.upsertCommand("image", "Ask chat gpt to generate an image!")
             .addOption(OptionType.STRING, "prompt", "prompt for image", true)
             .queue();
         }
